@@ -19,8 +19,9 @@ Same you can make it for Edge Application and Opera Application.
 2. " .... " --disable-web-security --user-data-dir="C:\tempEdge"
 
 
-(#)  For Firebase/Netlify --
-Open this link :- .
+(#) For Firebase --
+Open this link :- https://cloth-waving-assignment-3js.web.app/ .
+Cloth Wave Pattern Rendering is Deployed on Firebase above link.
 
 --: Details :- 
 '3jsmain.html' has Vertex shader code and Fragment shader code where all the logic is implemented using 3D Noise.
