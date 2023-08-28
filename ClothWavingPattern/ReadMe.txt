@@ -1,9 +1,28 @@
-#For Local Machine --
+(#) For Local Machine --
 Double Click on 3jsmain.html to Run the File on Local machine.
 
-#For Firebase/Netlify --
++++ For Texture to display on FireFox browser :- 
+Enter in URL Section "about:config"
+Then Click on "Accept the Risk and Continue"
+Then Search "content.cors.disable" and make it "TRUE"
+Then Search "security.fileuri.strict_origin_policy" and make it "FALSE"
+
++++ For Texture to display on Chrome / Edge / Opera browser :- 
+Goto Desktop and you will see Browser Icon Like Chrome, Edge, Opera.
+Select That Shortcut Application and Right Click on Application.
+Then Select Properties, and a properties window will appear.
+Then in Target Edit Box type this <File Path>"C:\Program Files\Google\Chrome\Application\chrome.exe"<After Double Coat give space and type this> --allow-file-access-from-files --user-data-dir="C:\tempChrome"
+For --user-data-dir="C:\tempChrome" I made a Folder in tempChrome for Chrome Application.
+Same you can make it for Edge Application and Opera Application.
+### Use any one of these in target Edit box.
+1. " .... " --allow-file-access-from-files --user-data-dir="C:\tempChrome"
+2. " .... " --disable-web-security --user-data-dir="C:\tempEdge"
+
+
+(#)  For Firebase/Netlify --
 Open this link :- .
 
+--: Details :- 
 '3jsmain.html' has Vertex shader code and Fragment shader code where all the logic is implemented using 3D Noise.
 
 3D Noise is taken as reference from :- Simplex 3D Noise by Ian McEwan, Ashima Arts, https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83 .
