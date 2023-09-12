@@ -1,24 +1,6 @@
 (#) For Local Machine --
 Double Click on 3jsmain.html to Run the File on Local machine.
 
-+++ For Texture to display on FireFox browser :- 
-Enter in URL Section "about:config"
-Then Click on "Accept the Risk and Continue"
-Then Search "content.cors.disable" and make it "TRUE"
-Then Search "security.fileuri.strict_origin_policy" and make it "FALSE"
-
-+++ For Texture to display on Chrome / Edge / Opera browser :- 
-Goto Desktop and you will see Browser Icon Like Chrome, Edge, Opera.
-Select That Shortcut Application and Right Click on Application.
-Then Select Properties, and a properties window will appear.
-Then in Target Edit Box type this <File Path>"C:\Program Files\Google\Chrome\Application\chrome.exe"<After Double Coat give space and type this> --allow-file-access-from-files --user-data-dir="C:\tempChrome"
-For --user-data-dir="C:\tempChrome" I made a Folder in tempChrome for Chrome Application.
-Same you can make it for Edge Application and Opera Application.
-### Use any one of these in target Edit box.
-1. " .... " --allow-file-access-from-files --user-data-dir="C:\tempChrome"
-2. " .... " --disable-web-security --user-data-dir="C:\tempEdge"
-
-
 (#) For Firebase --
 Open this link :- https://dtilesetvisualizer.web.app/.
 3d Tile Set Visualizer is Deployed on Firebase above link.
@@ -35,6 +17,10 @@ FlyOrbitControls.js and all other .js files in 'src' folder is taken as referenc
 For 3JS reference i used documentation site :- https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene .
 
 For 3d Tiling using Cesium Icon :- https://cesium.com/learn/3d-tiling/ion-tile-3d-buildings/ .
+
+For Ion Asset Token :- https://ion.cesium.com/tokens?page=1 .
+
+For Ion Asset Id :- https://ion.cesium.com/assets/1415196?page=1&sortBy=DATE_ADDED&sortOrder=DESC .
 
 ### Question ###
 Create 3D tiles with custom building data and write a 3D tile set visualizer in ThreeJS.
